@@ -1,0 +1,4 @@
+[build]
+  base = "."  # This is where your project files are located
+  publish = "out"  # This is the folder where Next.js exports the static files
+  command = "next build && next export"  # Build and export command for static sites
