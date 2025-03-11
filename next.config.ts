@@ -1,8 +1,8 @@
-import type { NextConfig } from "next";
+import { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
-   exportTrailingSlash : true,
+  output: 'export',  // Set the output mode for static site generation
+  trailingSlash: true,  // Ensure trailing slashes for better static site handling
 };
 
 export default nextConfig;
